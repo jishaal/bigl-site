@@ -15,6 +15,7 @@ injectGlobal`
     font-family: 'Slabo 27px', serif;
     color: ${colorPrimary};
     background: white;
+    margin: 0;
   }
 
   a {

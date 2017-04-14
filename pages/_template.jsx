@@ -10,10 +10,7 @@ class Template extends React.Component {
 		return (
 			<div>
 				<NavigationContainer>
-					<NavigationLink
-						to={prefixLink('/about/')}
-						title="About"
-					>
+					<NavigationLink to={prefixLink('/about/')} title="About">
 						About
 					</NavigationLink>
 					<NavigationLink
@@ -28,16 +25,12 @@ class Template extends React.Component {
 					>
 						Testimonials
 					</NavigationLink>
-					<NavigationLink
-						to={prefixLink('/tips/')}
-						title="Tips"
-					>
+					<NavigationLink to={prefixLink('/tips/')} title="Tips">
 						Tips
 					</NavigationLink>
 				</NavigationContainer>
 				{children}
 			</div>
-
 		);
 	}
 }
