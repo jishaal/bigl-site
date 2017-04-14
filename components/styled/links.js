@@ -8,8 +8,8 @@ import { colorSecondary } from './constants';
  * StyledLink
  */
 export const StyledNavLink = styled(Link)`
-  color: ${colorSecondary};
-  font-size: 18px;
+  color: white ;
+  font-size: 20px;
   text-decoration: ${props => (props.underline ? 'underline' : 'none')};
 
   &:hover {
@@ -25,7 +25,7 @@ export const NavigationLink = styled(StyledNavLink)`
   &:hover {
     text-decoration: none;
     padding-bottom: 4px;
-    border-bottom: 4px solid #02d8ff;
+    border-bottom: 4px solid black;
   }
   &:last-child {
     margin-right: 0px;
@@ -35,4 +35,10 @@ export const NavigationLink = styled(StyledNavLink)`
     font-size: 30px;
     line-height: 30px;
   }
+`;
+
+export const NavigationContainer = styled.div`
+	padding: 20px;
+	background: ${colorSecondary};
+	text-align: right;
 `;
