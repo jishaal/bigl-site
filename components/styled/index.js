@@ -29,12 +29,12 @@ injectGlobal`
  * Media Queries
  */
 const media = {
-  tablet: (...args) => css`
+	tablet: (...args) => css`
     @media (min-width: 420px) {
-      ${ css(...args) }
+      ${css(...args)}
     }
-  `
-}
+  `,
+};
 
 /*
  * Wrapper
@@ -49,7 +49,7 @@ export const Wrapper = styled.div`
 /*
  * Title
  */
- export const Title = styled.h1`
+export const Title = styled.h1`
    font-size: 30px;
    text-decoration: underline;
  `;
@@ -69,7 +69,7 @@ export const Subtitle = styled.h2`
 export const StyledLink = styled(Link)`
   color: palevioletred;
   font-size: 18px;
-  text-decoration: ${props => props.underline ? 'underline' : 'none'};
+  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
 
   &:hover {
     text-decoration: underline;
@@ -79,7 +79,7 @@ export const StyledLink = styled(Link)`
 /*
  * StyledAnchor
  */
- export const StyledAnchor = styled.a`
+export const StyledAnchor = styled.a`
    color: palevioletred;
    font-size: 18px;
  `;
@@ -96,7 +96,7 @@ export const Message = styled.h2`
  * Button
  */
 export const Button = styled.button`
-  padding: ${props => props.large ? '16px 48px' : '8px 24px'};
+  padding: ${props => (props.large ? '16px 48px' : '8px 24px')};
   color: white;
   font-size: 16px;
   font-weight: 600;
@@ -161,7 +161,7 @@ export const DangerButton = styled(Button)`
 export const Input = styled.input`
   color: ${props => props.color};
   font-size: 16px;
-  padding: ${props => props.large ? '16px 48px' : '8px 24px'};
+  padding: ${props => (props.large ? '16px 48px' : '8px 24px')};
   border: 2px solid ${props => props.color};
   background: transparent;
 `;
@@ -171,9 +171,9 @@ export const Input = styled.input`
  */
 export const Text = styled.p`
   font-size: ${props => props.fontSize || '16px'};
-  ${ media.tablet`
+  ${media.tablet`
     font-size: 20px;
-  ` }
+  `}
 `;
 
 /*
@@ -214,9 +214,9 @@ export const PostTitle = styled.h1`
 export const PostBody = styled.div`
  padding: 0px 50px;
  font-size: 17px;
- ${ media.tablet`
+ ${media.tablet`
    font-size: 20px;
- ` }
+ `}
 `;
 
 /*
