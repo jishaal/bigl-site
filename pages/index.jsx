@@ -30,6 +30,9 @@ export default class Index extends React.Component {
 				<StyledLink to={prefixLink('/blog/')} underline>
 					Blog
 				</StyledLink>
+				<StyledLink to={prefixLink('/packages/')} underline>
+					Packages
+				</StyledLink>
 				<StyledAnchor
 					href="https://github.com/bntzio/gatsby-starter-superstylin"
 					target="_blank"
