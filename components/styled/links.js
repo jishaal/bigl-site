@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 import DefaultBanner from '../../assets/default-cover.jpg';
 
-import { colorSecondary } from './constants';
+import { colorSecondary, colorYellow } from './constants';
 
 /*
  * StyledLink
@@ -62,7 +62,6 @@ export const Header = styled.header`
   padding: 24px 32px;
   max-width: 1440px;
   margin: 0 auto;
-  height: 400px;
   justify-content: space-between;
   z-index: 2;
   @media (min-width:) {
@@ -71,8 +70,32 @@ export const Header = styled.header`
 `;
 
 export const HeaderImage = styled.div`
-  height: 400px;
-  justify-content: space-between;
-  background: url( ${props => (props.bannerImg ? props.bannerImg : DefaultBanner)});
-  background-size: cover;
+	background: ${colorYellow};
+  @media (min-width: 768px) {
+    background: url( ${props => (props.bannerImg ? props.bannerImg : DefaultBanner)});
+  	background-size: cover;
+  	height: 400px;
+  
+  }
+  
+  @media (min-width: 1100px) {
+  	height: 600px;
+  
+  }
 `;
+
+export const CircleButton = styled(Link)`
+  color: ${colorYellow};
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  text-align: center;
+  font-size: 20px;
+  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
+  font-weight: bolder;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+

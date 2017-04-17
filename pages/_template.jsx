@@ -1,6 +1,8 @@
 import React from 'react';
 import { prefixLink } from 'gatsby-helpers';
 
+import { config } from 'config';
+
 import {
 	NavigationLink,
 	NavigationContainer,
@@ -9,13 +11,20 @@ import {
 	HeaderImage,
 } from '../components/styled';
 
+import Tunnel from '../assets/tunnel.jpg';
+
 class Template extends React.Component {
 	render() {
 		const { children } = this.props;
+		let banner;
+
+		if (this.props.location.pathname.includes('lessons')) {
+			banner = Tunnel;
+		}
 
 		return (
 			<div>
-				<HeaderImage>
+				<HeaderImage bannerImg={banner}>
 					<Header>
 						<Logo />
 						<NavigationContainer>
