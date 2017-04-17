@@ -32,7 +32,7 @@ Read this excellent post on [why inline-styles !== css-in-js](http://mxstbr.blog
 
 ## Installing
 ```sh
-$ gatsby new my-awesome-site https://github.com/bntzio/gatsby-starter-superstylin
+$ gatsby new my-awesome-site https://github.com/jishaal/bigl-site
 
 $ cd my-awesome-site
 
@@ -42,4 +42,4 @@ $ gatsby develop
 ## License
 Licensed under the MIT License, Copyright © 2017 Enrique Benitez.
 
-See [LICENSE](https://github.com/bntzio/gatsby-starter-superstylin/blob/master/license) for more information.
+See [LICENSE](https://github.com/jishaal/bigl-site/blob/master/license) for more information.

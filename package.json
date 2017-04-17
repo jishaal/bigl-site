@@ -1,17 +1,17 @@
 {
-  "name": "gatsby-starter-superstylin",
+  "name": "bigl-site",
   "version": "1.0.0",
   "description": "A Gatsby starter with styled-components",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop -H 127.0.0.1",
-    "pretty": "prettier --tab-width 4 --use-tabs --single-quote --trailing-comma all --write \"{pages,components,wrappers}/**/*.js*\""
+    "pretty": "prettier --tab-width 4 --use-tabs --single-quote --trailing-comma all --write \"{pages,components,wrappers}/**/*.js*\"",
     "deploy": "gatsby build --prefix-links && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bntzio/gatsby-starter-superstylin.git"
+    "url": "git+https://github.com/jishaal/bigl-site.git"
   },
   "keywords": [
     "gatsby",
@@ -20,9 +20,9 @@
   "author": "Enrique Benitez <bntz.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bntzio/gatsby-starter-superstylin/issues"
+    "url": "https://github.com/jishaal/bigl-site/issues"
   },
-  "homepage": "https://github.com/bntzio/gatsby-starter-superstylin#readme",
+  "homepage": "https://github.com/jishaal/bigl-site#readme",
   "dependencies": {
     "front-matter": "^2.1.1",
     "gatsby": "^0.12.20",
