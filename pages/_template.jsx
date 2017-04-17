@@ -18,7 +18,7 @@ class Template extends React.Component {
 		const { children } = this.props;
 		let banner;
 
-		if (this.props.location.pathname.includes('lessons')) {
+		if (this.props.location.pathname.includes('tips')) {
 			banner = Tunnel;
 		}
 
@@ -29,22 +29,22 @@ class Template extends React.Component {
 						<Logo />
 						<NavigationContainer>
 							<NavigationLink
-								to={prefixLink('/about/')}
-								title="About"
+								to={prefixLink('/')}
+								title="Home"
 							>
-								About
+								Home
 							</NavigationLink>
 							<NavigationLink
-								to={prefixLink('/lessons/')}
-								title="Lessons"
+								to={prefixLink('/services/')}
+								title="Services"
 							>
-								Lessons
+								Services
 							</NavigationLink>
 							<NavigationLink
-								to={prefixLink('/testimonials/')}
-								title="Testimonials"
+								to={prefixLink('/instructors/')}
+								title="Instructors"
 							>
-								Testimonials
+								Instructors
 							</NavigationLink>
 							<NavigationLink
 								to={prefixLink('/tips/')}

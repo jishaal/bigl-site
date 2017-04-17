@@ -6,7 +6,7 @@ import { config } from 'config';
 import _ from 'lodash';
 import { Message, StyledLink, Text } from '../components/styled/';
 
-export default class About extends React.Component {
+export default class Instructors extends React.Component {
 	render() {
 		const { route } = this.props;
 		const post = route.page.file;

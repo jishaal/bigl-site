@@ -6,7 +6,7 @@ import { config } from 'config';
 import _ from 'lodash';
 import { Message, StyledLink, Text } from '../components/styled/';
 
-export default class Testimonials extends React.Component {
+export default class Services extends React.Component {
 	render() {
 		const { route } = this.props;
 		const post = route.page.file;
@@ -21,7 +21,7 @@ export default class Testimonials extends React.Component {
 						<StyledLink to={prefixLink('/')}>back home</StyledLink>
 					</Column>
 					<Column sm={1}>
-						<Message>Testimonials</Message>
+						<Message>Services</Message>
 					</Column>
 				</Row>
 				<Row>
