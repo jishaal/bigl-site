@@ -21,46 +21,42 @@ export default class About extends React.Component {
 						<StyledLink to={prefixLink('/')}>back home</StyledLink>
 					</Column>
 					<Column sm={1}>
-						<Message>About Superstylin'</Message>
+						<Message>About Big L Driving School</Message>
 					</Column>
 				</Row>
 				<Row>
 					<Column>
 						<Text fontSize="18px">
-							Superstylin' is a Gatsby starter focused on
+							My name is
 							{' '}
-							<b>
-								<a
-									href="https://github.com/styled-components/styled-components"
-									target="_blank"
-								>
-									styled-components
-								</a>
-							</b>
-							.
+							<b>Pravin Kalyan</b>
+							{' '}
+							also known as PK and I hold dual qualification of Driving
+							Instructor and Driver Testing Officer.
 						</Text>
 						<Text fontSize="18px">
-							By using
-							{' '}
-							<b>styled-components</b>
-							, it means you write your
-							{' '}
-							<b>CSS in your JS</b>
-							.
+							In my previous role of Driver Testing Officer, I have carried out thousands of restricted and
+							full driving test and have seen varying driving standards. Each time I witnessed poor performance
+							by the drivers, I wished I could help to improve their driving standards but my role as
+							Driver Testing Officer prevented me from helping apart from debriefing after the driving test
+							with recommendation for improving their driving standards.
 						</Text>
-						<Text fontSize="18px">
-							Just create a component and give it some styles and you're good to go,
-							{' '}
-							<b>
-								<a
-									href="https://github.com/bntzio/gatsby-starter-superstylin#readme"
-									target="_blank"
-								>
-									read the readme for more
-								</a>
-							</b>
-							.
+
+						<Text>
+							To help lift the standard of driving and produce drivers with safe driving skills, I stepped
+							down from the Driving Testing Role and take up Driver Instructing Role.
 						</Text>
+
+						<Text>
+							I personally have 37 years of driving experience and all my working career has been in customer service role.
+
+						</Text>
+
+						<Text>
+							I have conducted a number of training session in delivering excellent customer services
+							whilst employed in banking industry and bring all my experiences to driver instructing.
+						</Text>
+
 					</Column>
 				</Row>
 			</Page>

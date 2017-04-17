@@ -6,7 +6,7 @@ import { config } from 'config';
 import _ from 'lodash';
 import { Message, StyledLink, Text } from '../components/styled/';
 
-export default class Packages extends React.Component {
+export default class Testimonials extends React.Component {
 	render() {
 		const { route } = this.props;
 		const post = route.page.file;
@@ -21,23 +21,13 @@ export default class Packages extends React.Component {
 						<StyledLink to={prefixLink('/')}>back home</StyledLink>
 					</Column>
 					<Column sm={1}>
-						<Message>All packages go here bruv'</Message>
+						<Message>Testimonials</Message>
 					</Column>
 				</Row>
 				<Row>
 					<Column>
 						<Text fontSize="18px">
-							Packages here
-							{' '}
-							<b>
-								<a
-									href="https://github.com/styled-components/styled-components"
-									target="_blank"
-								>
-									styled-components
-								</a>
-							</b>
-							.
+							// TODO
 						</Text>
 					</Column>
 				</Row>
