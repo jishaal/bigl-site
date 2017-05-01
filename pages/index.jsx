@@ -17,37 +17,14 @@ export default class Index extends React.Component {
 					<Column>
 						<Message>
 							{' '}
-							We off a variety of services and plans to get you ready for your driving exam.
+							Our website is coming soon.
 							{' '}
 						</Message>
-					</Column>
-					<Column xs={2} md={1}>
-						<h4>Section Title</h4>
-						<p>
-							Etiam pretium libero massa, vitae lacinia nibh ultricies ut.
-						</p>
-					</Column>
-					<Column xs={2} md={1}>
-						<h4>Section Title</h4>
-						<p>
-							Etiam pretium libero massa, vitae lacinia nibh ultricies ut.
-						</p>
-					</Column>
-				</Row>
-
-				<Row divisions={2}>
-					<Column />
-					<Column xs={2} md={1}>
-						<h4>Section Title</h4>
-						<p>
-							Etiam pretium libero massa, vitae lacinia nibh ultricies ut.
-						</p>
-					</Column>
-					<Column xs={2} md={1}>
-						<h4>Section Title</h4>
-						<p>
-							Etiam pretium libero massa, vitae lacinia nibh ultricies ut.
-						</p>
+						<Message>
+							{' '}
+							<a href="https://www.facebook.com/Bigldrivingschool/">In the meantime, click here to find us on Facebook.</a>
+							{' '}
+						</Message>
 					</Column>
 				</Row>
 			</Page>
