@@ -51,7 +51,6 @@ export default class Instructors extends React.Component {
 							I personally have 37 years of driving experience and all my working career has been in customer service role.
 
 						</Text>
-
 						<Text>
 							I have conducted a number of training session in delivering excellent customer services
 							whilst employed in banking industry and bring all my experiences to driver instructing.
