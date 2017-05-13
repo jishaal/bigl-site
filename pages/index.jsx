@@ -21,14 +21,14 @@ export default class Index extends React.Component {
 						</Message>
 					</Column>
 					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
+						<h2>Tenderloin bresaola</h2>
 						<p>
 							Tongue chuck tenderloin bresaola, flank chicken meatball spare ribs biltong. Frankfurter
 							sausage burgdoggen brisket venison spare ribs.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
+						<h2>Kevin ground </h2>
 						<p>
 							Pastrami spare ribs salami, venison porchetta shankle pork loin kielbasa jowl picanha bresaola
 							kevin ground round brisket.
@@ -38,7 +38,7 @@ export default class Index extends React.Component {
 
 				<Row divisions={2}>
 					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
+						<h2>Shankle</h2>
 						<p>
 							Bresaola kielbasa fatback pork belly shoulder, turducken picanha short loin pork loin pig
 							pastrami frankfurter beef ribs shankle leberkas. Picanha drumstick biltong rump pancetta
@@ -46,7 +46,7 @@ export default class Index extends React.Component {
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
+						<h2>Venison filet</h2>
 						<p>
 							Pork chop alcatra filet mignon picanha, hamburger t-bone ball tip turducken short loin.
 							Andouille doner venison chicken tenderloin brisket turkey, rump pig t-bone burgdoggen leberkas

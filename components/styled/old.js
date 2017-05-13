@@ -11,10 +11,10 @@ import LogoImage from '../../assets/logo.png';
  * Global Styles
  */
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+  @import url('https://fonts.googleapis.com/css?family=Lato');
 
   body {
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Lato', sans-serif;
     color: ${colorPrimary};
     background: white;
     margin: 0;
@@ -168,72 +168,6 @@ export const Text = styled.p`
   ${media.tablet`
     font-size: 20px;
   `}
-`;
-
-/*
- * PostLinkContainer
- */
-export const PostLinkContainer = styled(Row)`
-  border-bottom: 2px solid ${lighten(0.1, '#db7093')};
-`;
-
-/*
- * PostLinkTitle
- */
-export const PostLinkTitle = styled.h2`
-  font-size: 18px;
-  font-weight: 900;
-`;
-
-/*
- * PostLinkDescription
- */
-export const PostLinkDescription = styled.p`
-  font-size: 16px;
-  font-weight: 400;
-`;
-
-/*
- * PostTitle
- */
-export const PostTitle = styled.h1`
-  font-size: 30px;
-  text-decoration: underline;
-  margin-bottom: 7px;
-`;
-
-/*
- * PostBody
- */
-export const PostBody = styled.div`
- padding: 0px 50px;
- font-size: 17px;
- ${media.tablet`
-   font-size: 20px;
- `}
-`;
-
-/*
- * PostDate
- */
-export const PostDate = styled.span`
-  font-size: 13px;
-  font-weight: lighter;
-`;
-
-/*
- * From
- */
-export const From = styled.div`
-  position: fixed;
-  bottom: 8px;
-  right: 8px;
-  font-size: 13px;
-
-  a {
-    text-decoration: none;
-    font-weight: bolder;
-  }
 `;
 
 /*

@@ -13,34 +13,32 @@ import {
 
 const PLANS = [
 	{
-		name: 'Starter Lesson',
+		name: '1 hr lesson',
 		color: colorSecondary,
-		price: '$50',
+		price: '$70',
 		items: [
-			'1 hour driving',
-			'Your own car',
-			'Something else',
-			'Something positive',
+			'A full 1 hour of driving',
+			'Tailored to the driver\'s individual needs',
+			'Includes take-home lesson notes',
 		],
 	},
 	{
-		name: 'Standard Lesson',
+		name: '1 hr driving assessment',
 		color: colorYellow,
-		price: '$50',
+		price: '$75',
 		items: [
-			'1 hour driving',
-			'Your own car',
-			'Something else',
-			'Something positive',
+			'A full 1 hour of driving',
+			'Restricted licence test available',
+			'Full licence test available',
 		],
 	},
 	{
-		name: 'Adavanced Lesson',
+		name: 'Vehicle hire for licence test',
 		color: colorTertiary,
 		price: '$80',
 		items: [
 			'1 hour driving',
-			'Your own car',
+			'Using the driving school car',
 			'Something else',
 			'Something positive',
 		],
@@ -48,7 +46,7 @@ const PLANS = [
 ];
 
 const PricingPlans = () => (
-	<Row debug divisions={9}>
+	<Row divisions={9}>
 		{PLANS.map((plan, i) => (
 			<Column xs={9} md={3} key={i}>
 				<PricingPlan bgColor={plan.color}>

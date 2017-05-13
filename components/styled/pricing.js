@@ -1,9 +1,4 @@
 import styled from 'styled-components';
-import { darken, lighten } from 'polished';
-
-export const PricingTable = styled.div`
-  text-align: center;
-`;
 
 export const PricingPlan = styled.div`
   text-align: center;

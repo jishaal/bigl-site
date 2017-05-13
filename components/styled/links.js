@@ -1,10 +1,9 @@
 import styled from 'styled-components';
-import { darken, lighten } from 'polished';
 import { Link } from 'react-router';
 
 import DefaultBanner from '../../assets/default-cover.jpg';
 
-import { colorSecondary, colorYellow } from './constants';
+import { colorSecondary, colorYellow, colorPrimary } from './constants';
 
 /*
  * StyledLink
@@ -70,16 +69,16 @@ export const Header = styled.header`
 `;
 
 export const HeaderImage = styled.div`
-	background: ${colorYellow};
+	background: ${colorPrimary};
   @media (min-width: 768px) {
     background: url( ${props => (props.bannerImg ? props.bannerImg : DefaultBanner)});
   	background-size: cover;
-  	height: 400px;
+  	height: 350px;
   
   }
   
   @media (min-width: 1100px) {
-  	height: 600px;
+  	height: 450px;
   
   }
 `;
