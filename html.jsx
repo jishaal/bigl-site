@@ -40,6 +40,7 @@ module.exports = React.createClass({
 						rel="stylesheet"
 					/>
 					{css}
+					<meta name="google-site-verification" content="BDedkwFPU5G1cmTiajAL8HNPCf7-eItyqoGzwKYeSM0" />
 				</head>
 				<body>
 					<div
