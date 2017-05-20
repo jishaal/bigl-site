@@ -17,61 +17,35 @@ export default class Index extends React.Component {
 				<Row divisions={2}>
 					<Column>
 						<Message>
-							We off a variety of services and plans to get you ready for your driving exam.
+							We offer a variety of services and plans to get you ready for your driving exam.
 						</Message>
 					</Column>
 					<Column xs={2} md={1}>
-						<h2>Tenderloin bresaola</h2>
+						<h3>Learners Licence</h3>
 						<p>
-							Tongue chuck tenderloin bresaola, flank chicken meatball spare ribs biltong. Frankfurter
-							sausage burgdoggen brisket venison spare ribs.
+							We can assist you with passing your theory test by directing you to the available resources
+							and/or sitting with you on one on one basis to explain and reason out various scenarios.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h2>Kevin ground </h2>
+						<h3>Restricted Licence</h3>
 						<p>
-							Pastrami spare ribs salami, venison porchetta shankle pork loin kielbasa jowl picanha bresaola
-							kevin ground round brisket.
+							We teach you to drive in a very safe and supportive environment under the guidance and
+							expertise of a professional driving instructor who has been an Ex-Driver Testing Officer
+							with VTNZ and conducted thousands of driving test whilst in that role.
 						</p>
 					</Column>
 				</Row>
-
-				<Row divisions={2}>
-					<Column xs={2} md={1}>
-						<h2>Shankle</h2>
-						<p>
-							Bresaola kielbasa fatback pork belly shoulder, turducken picanha short loin pork loin pig
-							pastrami frankfurter beef ribs shankle leberkas. Picanha drumstick biltong rump pancetta
-							salami.
-						</p>
-					</Column>
-					<Column xs={2} md={1}>
-						<h2>Venison filet</h2>
-						<p>
-							Pork chop alcatra filet mignon picanha, hamburger t-bone ball tip turducken short loin.
-							Andouille doner venison chicken tenderloin brisket turkey, rump pig t-bone burgdoggen leberkas
-							salami short ribs spare ribs.
-						</p>
+				<Row>
+					<Column>
+						<Message>
+							<strong>Introductory offer:</strong>
+							{' '}
+							1 hr free lesson when you book 10 x 1 hr lessons for $500 using your vehicle
+							Or $600 using Driving School Vehicle
+						</Message>
 					</Column>
 				</Row>
-
-				<Row divisions={2}>
-					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
-						<p>
-							Tongue chuck tenderloin bresaola, flank chicken meatball spare ribs biltong. Frankfurter
-							sausage burgdoggen brisket venison spare ribs.
-						</p>
-					</Column>
-					<Column xs={2} md={1}>
-						<h2>Section Title</h2>
-						<p>
-							Pastrami spare ribs salami, venison porchetta shankle pork loin kielbasa jowl picanha bresaola
-							kevin ground round brisket.
-						</p>
-					</Column>
-				</Row>
-
 				<PricingPlans />
 			</Page>
 		);

@@ -18,7 +18,7 @@ const PLANS = [
 		price: '$70',
 		items: [
 			'A full 1 hour of driving',
-			'Tailored to the driver\'s individual needs',
+			"Tailored to the driver's individual needs",
 			'Includes take-home lesson notes',
 		],
 	},

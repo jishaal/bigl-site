@@ -52,7 +52,7 @@ export const Title = styled.h1`
  * Subtitle
  */
 export const Subtitle = styled.h2`
-  font-size: 20px;
+  font-size: 24px;
   margin-top: 5px;
   margin-bottom: 20px;
 `;
@@ -82,8 +82,7 @@ export const StyledAnchor = styled.a`
  * Message
  */
 export const Message = styled.h2`
-  font-size: 27px;
-  text-decoration: underline;
+  font-size: 24px;
 `;
 
 /*
