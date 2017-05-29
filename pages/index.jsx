@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { config } from 'config';
+import { prefixLink } from 'gatsby-helpers';
 import { Row, Column, Page } from 'hedron';
-import { Message } from '../components/styled/';
+import { Message, StyledLink } from '../components/styled/';
 import PricingPlans from '../components/PricingPlans.jsx';
 
 export default class Index extends React.Component {
@@ -21,14 +22,14 @@ export default class Index extends React.Component {
 						</Message>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3>Learners Licence</h3>
+						<h3><StyledLink  underline to={prefixLink('/services/#learners')}>Learners Licence </StyledLink> </h3>
 						<p>
 							We can assist you with passing your theory test by directing you to the available resources
 							and/or sitting with you on one on one basis to explain and reason out various scenarios.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3>Restricted Licence</h3>
+						<h3><StyledLink underline to={prefixLink('/services/#restricted')}>Restricted Licence </StyledLink> </h3>
 						<p>
 							We teach you to drive in a very safe and supportive environment under the guidance and
 							expertise of a professional driving instructor who has been an Ex-Driver Testing Officer

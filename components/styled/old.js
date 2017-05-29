@@ -74,7 +74,7 @@ export const StyledLink = styled(Link)`
  * StyledAnchor
  */
 export const StyledAnchor = styled.a`
-   color: palevioletred;
+   color: palevioletrede;
    font-size: 18px;
  `;
 

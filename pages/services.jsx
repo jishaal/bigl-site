@@ -33,7 +33,7 @@ export default class Services extends React.Component {
 
 				<Row>
 					<Column>
-						<Subtitle>
+						<Subtitle id="learners">
 							Learner Licence
 						</Subtitle>
 						<Text>
@@ -87,7 +87,7 @@ export default class Services extends React.Component {
 
 				<Row>
 					<Column>
-						<Subtitle>
+						<Subtitle id="restricted">
 							Restricted Licence
 						</Subtitle>
 						<Text>
@@ -185,7 +185,7 @@ export default class Services extends React.Component {
 						<Text>
 							For more information, or to make a booking, please contact us now by phoning Pravin (PK) on
 							{' '}
-							<strong>021-1066-077</strong>
+							<strong>0211066077</strong>
 							{' '}
 							or
 							emailing us at
@@ -194,6 +194,131 @@ export default class Services extends React.Component {
 								bookings@bigl.co.nz
 							</a>
 							.
+						</Text>
+					</Column>
+				</Row>
+
+				<Row>
+					<Column>
+						<Subtitle id="full">
+							Full Licence
+						</Subtitle>
+						<Text>
+							Following successfully attaining the restricted licence, the next step is Full Licence.
+							Whilst you are driving under restricted licence , you are actually practising driving for
+							your full licence and that you are still learning.
+						</Text>
+
+						<Text>
+							<strong>The Full Licence Test</strong>
+						</Text>
+						<Text>
+							To be eligible to sit for your Full Licence, you must have held your Restricted Licence for
+							the required period of time. Obtaining your Full Licence will remove the restrictions such
+							as carrying passengers, driving at night or driving a manual vehicle.
+						</Text>
+
+						<Text>
+							You must have held your Restricted Licence for at least 18 months and be 18 years of age or
+							older, or if you have sat an approved advanced driving course/ defensive driving course, had
+							you Restricted Licence for 12 months and be at least 17 and half years old. If you are 25
+							years old or over, you must have held your Restricted Licence for at least 6 months, which
+							is reduced to 3 months with an approved advanced driving course/ defensive driving course.
+						</Text>
+
+						<Text>
+							The purpose of the Full Licence Test is to ensure that you are able to drive legally and
+							according to the NZ road rules and are able to demonstrate suitable driving skills.
+							The duration of the Full Licence driving test is approximately 30 minutes. The test involves
+							assessing your general driving skills with a key component of the driving test being hazard
+							detection and response commentary, as directed by the testing officer, where you will need
+							to verbally identify hazards and provide appropriate response for the hazards identified.
+						</Text>
+
+						<Text>
+							In order to pass the test, you can not incur more than 1 ‘critical error’ and no ‘immediate
+							fail errors’ and not incur too many ‘negative’ points which will result in a ‘points fail’.
+							The negative points mostly arise from insufficient hazard detection and response commentary.
+							Other areas of assessment where negative points are incurred are from lack of observation
+							skills, signalling errors, poor gap selections and incorrect following distances.
+						</Text>
+					</Column>
+				</Row>
+
+				<Row>
+					<Column>
+						<Subtitle id="overseas">
+							Overseas Conversion
+						</Subtitle>
+						<Text>
+							Moving to a new country is exciting and challenging.
+							Depending on the country you have come from, you may be required to sit for a theory test
+							followed by a full  practical driving test  before being granted a full New Zealand driver
+							licence.
+						</Text>
+						<Text>
+							If you’re here for a year or more, you need a New Zealand driver licence. If your overseas
+							licence is still current, or expired less than 12 months ago, you can apply to convert it
+							to a New Zealand licence. Whether you’re in New Zealand for a short time or you’re here to
+							stay, you need to bring your current driver licence from your home country. You may also
+							need an international driving permit or a translation of your licence if it’s not in English.
+						</Text>
+						<Text>
+							We are able to assist you to become familiar with New Zealand driving conditions and
+							requirements so that you can drive safely and help prepare you for your Overseas
+							Conversion driving test.
+						</Text>
+						<Text>
+							We highly recommend at least 6 to 8 weeks of driving practice with your supervisor before
+							booking for your full driving test
+						</Text>
+						<Text>
+							The practical driving test for Overseas Conversions is based on the Full Licence Test.
+						</Text>
+					</Column>
+				</Row>
+
+				<Row>
+					<Column>
+						<Subtitle id="mock">
+							Mock Test
+						</Subtitle>
+						<Text>
+							A mock driving test allows you and your driving instructor to identify any areas of your
+							driving that need improvement before taking your actual practical driving test. During the
+							mock test you also get to familiarise with what to expect on the actual test.
+
+						</Text>
+						<Text>
+							If you have already sat your driving test and unfortunately failed and have lost confidence,
+							then Mock Driving test prior to rebooking is strongly recommended.
+						</Text>
+						<Text>
+							As an Ex Driver Testing Officer, Pravin (PK) is conversant with the driving test routes and
+							the driver testing officers assessment and marking criteria used hence can guide you on any shortfalls in your driving skills prior to taking the actual driving test. Taking a mock test will greatly enhance your chances of passing your driving test on your first attempt or if you are resitting the test.
+
+						</Text>
+						<Text>
+							In addition, Pravin (PK) can also act as your support person during your actual test if this
+							is required.
+
+						</Text>
+						<Text>
+							The practical driving test for Overseas Conversions is based on the Full Licence Test.
+						</Text>
+
+						<Text>
+							To book a mock test, please contact us by email please contact us by
+							email at
+							{' '}
+							<a href="mailto:bookings@bigl.co.nz?Subject=Big%20L%20booking%20enquiry">
+								bookings@bigl.co.nz
+							</a>
+							{' '}
+							 or call on
+							{' '}
+							<strong>0211066077</strong>.
+							{' '}
 						</Text>
 					</Column>
 				</Row>
