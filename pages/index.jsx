@@ -12,7 +12,9 @@ export default class Index extends React.Component {
 			<Page width="1020px">
 				<Helmet
 					title={config.siteTitle}
-					meta={[{ name: 'Big L Driving SchoolS', content: 'sample' }]}
+					meta={[
+						{ name: 'Big L Driving SchoolS', content: 'sample' },
+					]}
 				/>
 
 				<Row divisions={2}>
@@ -22,14 +24,30 @@ export default class Index extends React.Component {
 						</Message>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3><StyledLink  underline to={prefixLink('/services/#learners')}>Learners Licence </StyledLink> </h3>
+						<h3>
+							<StyledLink
+								underline
+								to={prefixLink('/services/#learners')}
+							>
+								Learners Licence{' '}
+							</StyledLink>
+							{' '}
+						</h3>
 						<p>
 							We can assist you with passing your theory test by directing you to the available resources
 							and/or sitting with you on one on one basis to explain and reason out various scenarios.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3><StyledLink underline to={prefixLink('/services/#restricted')}>Restricted Licence </StyledLink> </h3>
+						<h3>
+							<StyledLink
+								underline
+								to={prefixLink('/services/#restricted')}
+							>
+								Restricted Licence{' '}
+							</StyledLink>
+							{' '}
+						</h3>
 						<p>
 							We teach you to drive in a very safe and supportive environment under the guidance and
 							expertise of a professional driving instructor who has been an Ex-Driver Testing Officer
@@ -37,14 +55,31 @@ export default class Index extends React.Component {
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3><StyledLink  underline to={prefixLink('/services/#full')}>Full Licence</StyledLink> </h3>
+						<h3>
+							<StyledLink
+								underline
+								to={prefixLink('/services/#full')}
+							>
+								Full Licence
+							</StyledLink>
+							{' '}
+						</h3>
 						<p>
 							Following successfully attaining the restricted licence, the next step is Full Licence.
 							Whilst you are driving under restricted licence , you are actually practising driving for
-							your full licence and that you are still learning.</p>
+							your full licence and that you are still learning.
+						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3><StyledLink underline to={prefixLink('/services/#overseas')}>Overseas Conversion</StyledLink> </h3>
+						<h3>
+							<StyledLink
+								underline
+								to={prefixLink('/services/#overseas')}
+							>
+								Overseas Conversion
+							</StyledLink>
+							{' '}
+						</h3>
 						<p>
 							Moving to a new country is exciting and challenging. Depending on the country you have come
 							from, you may be required to sit for a theory test followed by a full practical driving
@@ -52,7 +87,15 @@ export default class Index extends React.Component {
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
-						<h3><StyledLink underline to={prefixLink('/services/#mock')}>Mock Test</StyledLink> </h3>
+						<h3>
+							<StyledLink
+								underline
+								to={prefixLink('/services/#mock')}
+							>
+								Mock Test
+							</StyledLink>
+							{' '}
+						</h3>
 						<p>
 							A mock driving test allows you and your driving instructor to identify any areas of your
 							driving that need improvement before taking your actual practical driving test. During the

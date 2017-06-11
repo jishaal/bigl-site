@@ -30,12 +30,18 @@ export default class Contact extends React.Component {
 							Phone: 0211066077
 						</Text>
 						<Text fontSize="18px">
-							Email: <a href="mailto:bookings@bigl.co.nz?Subject=Big%20L%20booking%20enquiry">
-							bookings@bigl.co.nz
-						</a>
+							Email:
+							{' '}
+							<a href="mailto:bookings@bigl.co.nz?Subject=Big%20L%20booking%20enquiry">
+								bookings@bigl.co.nz
+							</a>
 						</Text>
 						<Text fontSize="18px">
-							Facebook: <a href="https://www.facebook.com/BigLDrivingSchool"> Big L Driving School </a>
+							Facebook:
+							{' '}
+							<a href="https://www.facebook.com/BigLDrivingSchool">
+								{' '}Big L Driving School{' '}
+							</a>
 						</Text>
 
 					</Column>

@@ -47,7 +47,7 @@ class Template extends React.Component {
 								to={prefixLink('/contact/')}
 								title="Contact"
 							>
-								 Contact
+								Contact
 							</NavigationLink>
 						</NavigationContainer>
 					</Header>

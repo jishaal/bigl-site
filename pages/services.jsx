@@ -179,7 +179,12 @@ export default class Services extends React.Component {
 						</Text>
 						<Text>
 							A useful resource for learner drivers sitting for their Restricted Licences is a website
-							put together by NZTA – <a href="https://drive.govt.nz/">https://drive.govt.nz</a>. This is aimed specifically at learner drivers
+							put together by NZTA –
+							{' '}
+							<a href="https://drive.govt.nz/">
+								https://drive.govt.nz
+							</a>
+							. This is aimed specifically at learner drivers
 							and explains the Restricted Licence test process in detail.
 						</Text>
 						<Text>
@@ -315,7 +320,7 @@ export default class Services extends React.Component {
 								bookings@bigl.co.nz
 							</a>
 							{' '}
-							 or call on
+							or call on
 							{' '}
 							<strong>0211066077</strong>.
 							{' '}
