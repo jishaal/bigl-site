@@ -6,7 +6,7 @@ import { config } from 'config';
 import _ from 'lodash';
 import { Message, StyledLink, Text } from '../components/styled/';
 
-export default class Tips extends React.Component {
+export default class Contact extends React.Component {
 	render() {
 		const { route } = this.props;
 		const post = route.page.file;
@@ -21,13 +21,21 @@ export default class Tips extends React.Component {
 						<StyledLink to={prefixLink('/')}>back home</StyledLink>
 					</Column>
 					<Column sm={1}>
-						<Message>Tips</Message>
+						<Message>Contact</Message>
 					</Column>
 				</Row>
 				<Row>
 					<Column>
 						<Text fontSize="18px">
-							// TODO
+							Phone: 0211066077
+						</Text>
+						<Text fontSize="18px">
+							Email: <a href="mailto:bookings@bigl.co.nz?Subject=Big%20L%20booking%20enquiry">
+							bookings@bigl.co.nz
+						</a>
+						</Text>
+						<Text fontSize="18px">
+							Facebook: <a href="https://www.facebook.com/BigLDrivingSchool"> Big L Driving School </a>
 						</Text>
 
 					</Column>

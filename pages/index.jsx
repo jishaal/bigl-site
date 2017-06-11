@@ -12,7 +12,7 @@ export default class Index extends React.Component {
 			<Page width="1020px">
 				<Helmet
 					title={config.siteTitle}
-					meta={[{ name: 'description', content: 'sample' }]}
+					meta={[{ name: 'Big L Driving SchoolS', content: 'sample' }]}
 				/>
 
 				<Row divisions={2}>
@@ -36,6 +36,29 @@ export default class Index extends React.Component {
 							with VTNZ and conducted thousands of driving test whilst in that role.
 						</p>
 					</Column>
+					<Column xs={2} md={1}>
+						<h3><StyledLink  underline to={prefixLink('/services/#full')}>Full Licence</StyledLink> </h3>
+						<p>
+							Following successfully attaining the restricted licence, the next step is Full Licence.
+							Whilst you are driving under restricted licence , you are actually practising driving for
+							your full licence and that you are still learning.</p>
+					</Column>
+					<Column xs={2} md={1}>
+						<h3><StyledLink underline to={prefixLink('/services/#overseas')}>Overseas Conversion</StyledLink> </h3>
+						<p>
+							Moving to a new country is exciting and challenging. Depending on the country you have come
+							from, you may be required to sit for a theory test followed by a full practical driving
+							test before being granted a full New Zealand driver licence.
+						</p>
+					</Column>
+					<Column xs={2} md={1}>
+						<h3><StyledLink underline to={prefixLink('/services/#mock')}>Mock Test</StyledLink> </h3>
+						<p>
+							A mock driving test allows you and your driving instructor to identify any areas of your
+							driving that need improvement before taking your actual practical driving test. During the
+							mock test you also get to familiarise with what to expect on the actual test.
+						</p>
+					</Column>
 				</Row>
 				<Row>
 					<Column>
@@ -43,7 +66,7 @@ export default class Index extends React.Component {
 							<strong>Introductory offer:</strong>
 							{' '}
 							1 hr free lesson when you book 10 x 1 hr lessons for $500 using your vehicle
-							Or $600 using Driving School Vehicle
+							Or $600 using Driving School Vehicle (valid till 31st July '17)
 						</Message>
 					</Column>
 				</Row>

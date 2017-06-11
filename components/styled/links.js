@@ -40,6 +40,7 @@ export const NavigationLink = styled(StyledNavLink)`
 `;
 
 export const NavigationContainer = styled.nav`
+  z-index: 2;
   @media (max-width: 768px) {
     position: absolute;
     top: -100vh;
@@ -74,12 +75,25 @@ export const HeaderImage = styled.div`
     background: url( ${props => (props.bannerImg ? props.bannerImg : DefaultBanner)});
   	background-size: cover;
   	height: 350px;
-  
+  	 &:after {
+		display: block;
+		position: absolute;
+		content: "";
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		opacity: 0.3;
+		background: white;
+		height: 350px;
+	 }
   }
   
   @media (min-width: 1100px) {
   	height: 450px;
-  
+  	 &:after {
+		height: 450px;
+	 }
   }
 `;
 

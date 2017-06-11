@@ -31,7 +31,7 @@ export default class Instructors extends React.Component {
 							{' '}
 							<b>Pravin Kalyan</b>
 							{' '}
-							also known as PK and I hold dual qualification of Driving
+							also known as PK and I am NZTA qualified and hold dual qualification of Driving
 							Instructor and Driver Testing Officer.
 						</Text>
 						<Text fontSize="18px">
