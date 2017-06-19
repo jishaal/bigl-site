@@ -22,7 +22,7 @@ injectGlobal`
     color: ${colorSecondary};
 
     &:hover, &:focus{
-      color: ${lighten(0.2, colorSecondary)};
+      color: ${lighten(0.1, colorSecondary)};
     }
   }
 `;
@@ -55,18 +55,6 @@ export const Subtitle = styled.h2`
   margin-bottom: 20px;
 `;
 
-/*
- * StyledLink
- */
-export const StyledLink = styled(Link)`
-  color: ${colorPrimary};
-  font-size: 18px;
-  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
-
-  &:hover {
-    text-decoration: underline;
-  }
-`;
 
 /*
  * StyledAnchor

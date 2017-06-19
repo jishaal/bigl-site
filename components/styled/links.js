@@ -6,14 +6,22 @@ import LogoImage from '../../assets/logo.png';
 
 import { colorSecondary, colorYellow, colorPrimary } from './constants';
 
-/*
- * StyledLink
- */
 export const StyledNavLink = styled(Link)`
   color: ${colorSecondary};
   font-size: 20px;
   text-decoration: ${props => (props.underline ? 'underline' : 'none')};
   font-weight: bolder;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+
+export const StyledLink = styled(Link)`
+  color: ${colorPrimary};
+  font-size: 18px;
+  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
 
   &:hover {
     text-decoration: underline;
