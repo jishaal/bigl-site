@@ -34,8 +34,8 @@ export default class Index extends React.Component {
 							{' '}
 						</h3>
 						<p>
-							We can assist you with passing your theory test by directing you to the available resources
-							and/or sitting with you on one on one basis to explain and reason out various scenarios.
+							Big L Driving School can help you prepare for the theory test on the NZ Road Codes with the
+							ability to direct you to any available resources.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
@@ -49,9 +49,9 @@ export default class Index extends React.Component {
 							{' '}
 						</h3>
 						<p>
-							We teach you to drive in a very safe and supportive environment under the guidance and
-							expertise of a professional driving instructor who has been an Ex-Driver Testing Officer
-							with VTNZ and conducted thousands of driving test whilst in that role.
+							We can to help you achieve your goal of getting your Restricted Licence. The driving
+							instructor at Big L Driving School has an added advantage of in depth knowledge of Driver
+							Testing and the Restricted Test routes.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
@@ -65,9 +65,9 @@ export default class Index extends React.Component {
 							{' '}
 						</h3>
 						<p>
-							Following successfully attaining the restricted licence, the next step is Full Licence.
-							Whilst you are driving under restricted licence , you are actually practising driving for
-							your full licence and that you are still learning.
+							Big L Driving School can help you prepare for your Full Licence Test which involves driving
+							into speed zones up to 70 km/h involving various manoeuvres. We can help you in identifying
+							and responding to driving hazards as you progress through the test.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
@@ -81,9 +81,9 @@ export default class Index extends React.Component {
 							{' '}
 						</h3>
 						<p>
-							Moving to a new country is exciting and challenging. Depending on the country you have come
-							from, you may be required to sit for a theory test followed by a full practical driving
-							test before being granted a full New Zealand driver licence.
+							Big L Driving School can assist you with your licence conversion by offering our services
+							in understanding the New Zealand Road Codes and passing the Theory Test followed by Full
+							Driving Licence test.
 						</p>
 					</Column>
 					<Column xs={2} md={1}>
@@ -97,9 +97,10 @@ export default class Index extends React.Component {
 							{' '}
 						</h3>
 						<p>
-							A mock driving test allows you and your driving instructor to identify any areas of your
-							driving that need improvement before taking your actual practical driving test. During the
-							mock test you also get to familiarise with what to expect on the actual test.
+							Being an ex VTNZ Driver Testing Officer, the driving instructor at Big L Driving School is
+							fully conversant with actual testing routes and also the assessable task of the respective
+							driving test. We can evaluate your driving standard and confirm your readiness for the
+							actual test and any areas that need to be addressed prior to it.
 						</p>
 					</Column>
 				</Row>
