@@ -26,7 +26,7 @@ class Template extends React.Component {
 			<div>
 				<HeaderImage bannerImg={banner}>
 					<Header>
-						<Logo />
+						<Logo to={prefixLink('/')} />
 						<NavigationContainer>
 							<NavigationLink to={prefixLink('/')} title="Home">
 								Home

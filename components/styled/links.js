@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router';
 
 import DefaultBanner from '../../assets/default-cover.jpg';
+import LogoImage from '../../assets/logo.png';
 
 import { colorSecondary, colorYellow, colorPrimary } from './constants';
 
@@ -83,7 +84,7 @@ export const HeaderImage = styled.div`
 		right: 0;
 		bottom: 0;
 		left: 0;
-		opacity: 0.3;
+		opacity: 0.1;
 		background: white;
 		height: 350px;
 	 }
@@ -95,6 +96,17 @@ export const HeaderImage = styled.div`
 		height: 450px;
 	 }
   }
+`;
+
+export const Logo = styled(Link)`
+  font-size: 18px;
+  display: inline-block;
+  width: 240px;
+  height: 58px;
+  margin: 5px ;
+  background: url(${LogoImage});
+  text-indent: -9999px;
+  z-index: 3;
 `;
 
 export const CircleButton = styled(Link)`

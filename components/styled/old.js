@@ -5,8 +5,6 @@ import { Row } from 'hedron';
 
 import { colorPrimary, colorSecondary } from './constants';
 
-import LogoImage from '../../assets/logo.png';
-
 /*
  * Global Styles
  */
@@ -113,18 +111,4 @@ export const ErrorBody = styled.div`
     display: block;
     margin-top: 50px;
   }
-`;
-
-/*
- * ErrorBody
- */
-export const Logo = styled.div`
-  font-size: 18px;
-  display: inline-block;
-  width: 240px;
-  height: 58px;
-  margin: 5px ;
-  background: url(${LogoImage});
-  text-indent: -9999px;
-  z-index: 3;
 `;
