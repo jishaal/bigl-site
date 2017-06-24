@@ -19,12 +19,26 @@ export const StyledNavLink = styled(Link)`
 
 
 export const StyledLink = styled(Link)`
-  color: ${colorPrimary};
-  font-size: 18px;
+  display: ${props => (props.block ? 'block' : '')};
+  color: ${props => (props.secondaryColor ? colorSecondary : colorPrimary)};
+  font-size: ${props => (props.fontSize ? props.fontSize + 'px' : '18px')};
   text-decoration: ${props => (props.underline ? 'underline' : 'none')};
-
   &:hover {
     text-decoration: underline;
+  }
+`;
+
+export const ButtonLink = styled(Link)`
+  display: inline-block;
+  border-radius: 2px;
+  padding: 7px 10px;
+  background: ${colorSecondary};
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+	color: white;
+	background: ${colorPrimary};
   }
 `;
 
@@ -97,7 +111,7 @@ export const HeaderImage = styled.div`
 		height: 350px;
 	 }
   }
-  
+
   @media (min-width: 1100px) {
   	height: 450px;
   	 &:after {
@@ -121,7 +135,7 @@ export const CircleButton = styled(Link)`
   color: ${colorYellow};
   width: 100px;
   height: 100px;
-  border-radius: 50%; 
+  border-radius: 50%;
   text-align: center;
   font-size: 20px;
   text-decoration: ${props => (props.underline ? 'underline' : 'none')};

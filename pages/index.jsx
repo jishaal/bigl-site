@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { config } from 'config';
 import { prefixLink } from 'gatsby-helpers';
 import { Row, Column, Page } from 'hedron';
-import { Message, StyledLink } from '../components/styled/';
+import { Message, StyledLink, ButtonLink } from '../components/styled/';
 import PricingPlans from '../components/PricingPlans.jsx';
 
 export default class Index extends React.Component {
@@ -37,6 +37,9 @@ export default class Index extends React.Component {
 							Big L Driving School can help you prepare for the theory test on the NZ Road Codes with the
 							ability to direct you to any available resources.
 						</p>
+						<ButtonLink to={prefixLink('/services/#learners')} marginTop="15px">
+							{' '}read more...
+						</ButtonLink>
 					</Column>
 					<Column xs={2} md={1}>
 						<h3>
@@ -53,6 +56,9 @@ export default class Index extends React.Component {
 							instructor at Big L Driving School has an added advantage of in depth knowledge of Driver
 							Testing and the Restricted Test routes.
 						</p>
+						<ButtonLink to={prefixLink('/services/#restricted')} marginTop="15px">
+							{' '}read more...
+						</ButtonLink>
 					</Column>
 					<Column xs={2} md={1}>
 						<h3>
@@ -69,6 +75,9 @@ export default class Index extends React.Component {
 							into speed zones up to 70 km/h involving various manoeuvres. We can help you in identifying
 							and responding to driving hazards as you progress through the test.
 						</p>
+						<ButtonLink to={prefixLink('/services/#full')} marginTop="15px">
+							{' '}read more...
+						</ButtonLink>
 					</Column>
 					<Column xs={2} md={1}>
 						<h3>
@@ -84,7 +93,11 @@ export default class Index extends React.Component {
 							Big L Driving School can assist you with your licence conversion by offering our services
 							in understanding the New Zealand Road Codes and passing the Theory Test followed by Full
 							Driving Licence test.
+
 						</p>
+						<ButtonLink to={prefixLink('/services/#overseas')}>
+							{' '}read more...
+						</ButtonLink>
 					</Column>
 					<Column xs={2} md={1}>
 						<h3>
@@ -102,6 +115,9 @@ export default class Index extends React.Component {
 							driving test. We can evaluate your driving standard and confirm your readiness for the
 							actual test and any areas that need to be addressed prior to it.
 						</p>
+						<ButtonLink to={prefixLink('/services/#mock')}>
+								{' '}read more...
+						</ButtonLink>
 					</Column>
 				</Row>
 				<Row>
