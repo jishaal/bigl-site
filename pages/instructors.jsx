@@ -15,6 +15,10 @@ export default class Instructors extends React.Component {
 			<Page>
 				<Helmet
 					title={`${config.siteTitle} - ${_.capitalize(post.name)}`}
+					meta={[
+						{ name: 'description', content: 'Learn about our instructor Pravin Kalyan (PK), who is NZTA qualified and holds dual qualification of Driving Instructor and Driver Testing Officer' },
+						{ name: 'keywords', content: config.siteKeywords }
+					]}
 				/>
 				<Row divisions={1}>
 					<Column sm={1}>

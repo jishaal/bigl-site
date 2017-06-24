@@ -13,7 +13,8 @@ export default class Index extends React.Component {
 				<Helmet
 					title={config.siteTitle}
 					meta={[
-						{ name: 'Big L Driving SchoolS', content: 'sample' },
+						{ name: 'description', content: 'Learn to drive! We provide driving lessons for restricted, full and overseas drivers including mock exams. Call us now!' },
+						{ name: 'keywords', content: config.siteKeywords }
 					]}
 				/>
 

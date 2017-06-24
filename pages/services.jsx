@@ -21,6 +21,10 @@ export default class Services extends React.Component {
 			<Page>
 				<Helmet
 					title={`${config.siteTitle} - ${_.capitalize(post.name)}`}
+					meta={[
+						{ name: 'description', content: 'Learn about our range of services we provide such as learners test support, restricted and full licenses as well as overseas conversions and mock tests.' },
+						{ name: 'keywords', content: config.siteKeywords }
+					]}
 				/>
 				<Row divisions={1}>
 					<Column sm={1}>

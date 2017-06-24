@@ -15,6 +15,10 @@ export default class Contact extends React.Component {
 			<Page>
 				<Helmet
 					title={`${config.siteTitle} - ${_.capitalize(post.name)}`}
+					meta={[
+						{ name: 'description', content: 'Contact Big L Driving School instructor Pravin Kalyan (PK) on 0211066077 or bookings@bigl.co.nz.' },
+						{ name: 'keywords', content: config.siteKeywords }
+					]}
 				/>
 				<Row divisions={1}>
 					<Column sm={1}>
