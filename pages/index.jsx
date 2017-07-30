@@ -121,16 +121,6 @@ export default class Index extends React.Component {
 						</ButtonLink>
 					</Column>
 				</Row>
-				<Row>
-					<Column>
-						<Message>
-							<strong>Introductory offer:</strong>
-							{' '}
-							1 hr free lesson when you book 10 x 1 hr lessons for $500 using your vehicle
-							Or $600 using Driving School Vehicle (valid till 31st July '17)
-						</Message>
-					</Column>
-				</Row>
 				<PricingPlans />
 			</Page>
 		);

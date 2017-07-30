@@ -32,6 +32,7 @@ module.exports = React.createClass({
 						name="viewport"
 						content="width=device-width, initial-scale=1.0"
 					/>
+					<meta name="google-site-verification" content="Kv5eL_vmPl4QSpv7hl1baUuQC_RQQM1cqlLYD0CITqg" />
 					{head.title.toComponent()}
 					{head.meta.toComponent()}
 					<link

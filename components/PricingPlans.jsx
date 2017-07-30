@@ -39,8 +39,6 @@ const PLANS = [
 		items: [
 			'1 hour driving',
 			'Using the driving school car',
-			'Something else',
-			'Something positive',
 		],
 	},
 ];
