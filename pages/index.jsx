@@ -22,6 +22,12 @@ export default class Index extends React.Component {
 					<Column>
 						<Message>
 							We offer a variety of services and plans to get you ready for your driving exam.
+							{' '}
+							<StyledLink
+								underline
+								fontSize={24}
+								to={prefixLink('/contact/')}>Click here to contact us now!
+							</StyledLink>
 						</Message>
 					</Column>
 					<Column xs={2} md={1}>
