@@ -13,7 +13,7 @@ import {
 
 const PLANS = [
 	{
-		name: '1 hr lesson',
+		name: '1 hour lesson',
 		color: colorSecondary,
 		price: '$60',
 		items: [
@@ -24,9 +24,9 @@ const PLANS = [
 		],
 	},
 	{
-		name: 'Package Deal 6 x 1hr driving lessons',
+		name: 'Package Deal 6 x 1 hour driving lessons',
 		color: colorTertiary,
-		price: '$70',
+		price: '$345',
 		items: [
 			'Tailored to the driver\'s individual needs',
 			'Includes take-home lesson notes',
@@ -34,7 +34,7 @@ const PLANS = [
 		],
 	},
 	{
-		name: 'Package Deal 10 x 1hr driving lessons',
+		name: 'Package Deal 10 x 1 hour driving lessons',
 		color: colorYellow,
 		price: '$550',
 		items: [
@@ -44,21 +44,21 @@ const PLANS = [
 		],
 	},
 	{
-		name: '1 hr mock test',
+		name: '1 hour mock test',
 		color: colorSecondary,
 		price: '$65',
 		items: [
 			'A full 1 hour of driving',
-			'Restricted / Full licence mock test',
+			'Restricted/full-licence mock test',
 			'Add $5 per hour using driving school vehicle',
 		],
 	},
 	{
 		name: 'Vehicle hire for licence test',
 		color: colorTertiary,
-		price: '$75/hr',
+		price: '$75 per hour',
 		items: [
-			'Add $40 for 1 hr pre- test drive if required',
+			'Add $40 for 1 hour pre-test drive if required',
 		],
 	},
 ];
